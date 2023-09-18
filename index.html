@@ -41,48 +41,7 @@
 
 
     </style>
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  /*font-family: 'Mochiy Pop One', sans-serif;*/
-}
-ul {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-ul li {
-  position: relative;
-  list-style: none;
-}
-ul li a {
-  font-size: 1.5em;
-  text-decoration: none;
-  letter-spacing: 1px;
-  line-height: 1em;
-  text-transform: uppercase;
-  /*color: transparent;*/
-  -webkit-text-stroke: 1px rgb(255, 99, 71);
-}
-ul li a::before {
-  content: attr(data-text);
-  position: absolute;
-  color: var(--clr);
-  width: 0;
-  overflow: hidden;
-  transition: 1s;
-  border-right: 8px solid var(--clr);
-  -webkit-text-stroke: 1px var(--clr);
-}
-ul li a:hover::before {
-  width: 100%;
-  filter: drop-shadow(0 0 25px var(--clr))
-}
-    </style>
+
 </head>
 
 <body>
@@ -104,49 +63,15 @@ ul li a:hover::before {
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="index.html" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="#about" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="#service" data-text="&nbsp;Services">&nbsp;Services&nbsp;</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="#Features" data-text="&nbsp;Features">&nbsp;Features&nbsp;</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="#Team" data-text="&nbsp;Team">&nbsp;Team&nbsp;</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="Product.html" data-text="&nbsp;Product">&nbsp;Product&nbsp;</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li style="--clr:#00ade1">
-                    <a href="#footer" data-text="&nbsp;Contact">&nbsp;Contact&nbsp;</a>
-                    </li>
-                </ul>
-<!--                <a href="index.html" class="nav-item nav-link active">Home</a>-->
-<!--                <a href="#about" class="nav-item nav-link">About</a>-->
-<!--                <a href="#service" class="nav-item nav-link">Services</a>-->
-<!--                <a href="#Features" class="nav-item nav-link">Features</a>-->
-<!--                <a href="#Team" class="nav-item nav-link">Our Team</a>-->
-<!--                <a href="Product.html" class="nav-item nav-link">Product</a>-->
 
-<!--                <a href="#footer" class="nav-item nav-link">Contact</a>-->
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+                <a href="#Features" class="nav-item nav-link">Features</a>
+                <a href="#Team" class="nav-item nav-link">Our Team</a>
+                <a href="Product.html" class="nav-item nav-link">Product</a>
+
+                <a href="#footer" class="nav-item nav-link">Contact</a>
             </div>
 
         </div>
@@ -270,8 +195,8 @@ ul li a:hover::before {
     <div class="container-xxl py-0" id="service">
         <div class="container py-0">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Services</h6>
-                <h1 class="mb-5">Explore Our Services</h1>
+<!--                <h6 class="text-secondary text-uppercase">Our Services</h6>-->
+                <h1 class="mb-5">Our Platforms</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" id="service1">
